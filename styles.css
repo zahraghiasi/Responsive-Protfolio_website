@@ -1,0 +1,37 @@
+/* Global Veiw aka Desktop View */
+
+.container {
+    background-color: rgb(214, 190, 237);
+    min-height: 500px;
+    max-width: 1024px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.col {
+    background-color: blueviolet;
+    min-height: 200px;
+    width: 30%;
+    margin-bottom: 40px;
+}
+
+/* Tablet View */
+@media(max-width: 768px){
+    
+    .col {
+        width: 45%;
+    }
+}
+
+
+
+/* Mobile View */
+/* it should be 360px or 400px */
+@media(max-width: 500px){
+
+    .col {
+        width: 100%;
+    }
+}
