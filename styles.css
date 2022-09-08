@@ -11,10 +11,18 @@
 }
 
 .col {
-    background-color: blueviolet;
     min-height: 200px;
     width: 30%;
     margin-bottom: 40px;
+}
+
+.hide-desktop-only {
+    display: none;
+}
+
+.col img {
+    width: 100%;
+    height: auto;
 }
 
 /* Tablet View */
@@ -22,6 +30,10 @@
     
     .col {
         width: 45%;
+    }
+
+    .hide-desktop-only {
+        display: block;
     }
 }
 
@@ -33,5 +45,9 @@
 
     .col {
         width: 100%;
+    }
+
+    .hide-mobile {
+        display: none;
     }
 }
