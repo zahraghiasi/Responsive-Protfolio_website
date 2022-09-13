@@ -18,12 +18,15 @@ a {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    padding-top: 140px;
 }
 
 .header-container {
     background-color: rgb(60, 60, 60);
     min-height: 100px;
     margin-bottom: 40px;
+    position: fixed;
+    width: 100%;
 }
 
 header {
