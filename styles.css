@@ -66,6 +66,11 @@ header {
     margin-left: 20px;
 }
 
+.bold {
+    font-weight: 700;
+}
+
+
 
 /* Tablet View */
 @media(max-width: 768px){
